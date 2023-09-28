@@ -30,7 +30,8 @@
    ```shell
    node example.js
    ```
-   
+   运行之后 命令行会显示一个二位码。收集扫码登录之后，会打印login。这时候如果微信收到消息会在命令行打印出来。
 ## 说明
-1. example.js中的onMessage函数可以监听收到的消息，可以按照自己的需求在onMessage中自定义需求逻辑
+1. `example.js` 中的`onMessage`函数可以监听收到的消息，可以按照自己的需求在onMessage中自定义需求逻辑
+2. app.js 为没有完成的使用express框架提供的http没有完成
 
